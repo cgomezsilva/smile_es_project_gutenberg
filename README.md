@@ -45,3 +45,6 @@ box.
 scp -r files root@10.1.0.1:/usr/share/nginx/html/gutenberg/
 scp index.html root@10.1.0.1:/usr/share/nginx/html/gutenberg/
 ```
+
+You should be able to click on the project gutenberg button and see all
+the books
