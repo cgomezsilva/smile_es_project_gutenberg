@@ -16,15 +16,16 @@ Upload the js file to the smile with secure copy:
 
 Right now going to `http://10.1.0.1` should display the following
 
-[here goes image of page with only six images]
+![picture of default smile installation](/imgs/pic1.png)
 
 To display the next element run on the console the following code.
+
 ```bash
 scp smile_access.min.js root@10.1.0.1:/usr/share/nginx/html/js/
 ```
 After this step, the index page `http://10.1.0.1` should appear as:
 
-[Here goes an image displaying now 7 items with project guttenberg]
+![picture of smile installation including project gutenberg](/imgs/pic2.png)
 
 proceed to do ssh to box following the procedure.
 ```bash
@@ -36,8 +37,10 @@ when requesting a password introduce `root`
 cd /usr/share/nginx/html/
 mkdir gutenberg
 ```
+
 then you can exit and copy the files to the new created folder on the
 box.
+
 ```bash
 scp -r files root@10.1.0.1:/usr/share/nginx/html/gutenberg/
 scp index.html root@10.1.0.1:/usr/share/nginx/html/gutenberg/
