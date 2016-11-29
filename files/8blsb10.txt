@@ -45,7 +45,7 @@ Character set encoding: ISO-8859-1
 
 
 Produced by Miranda van de Heijning, Virginia Paque and PG Distributed
-Proofreaders. This file was produced from images generously made available
+Proofreaders. This file was produced from imag   es generously made available
 by the Bibliotheque nationale de France (BnF/Gallica)
 at http://gallica.bnf.fr.
 
